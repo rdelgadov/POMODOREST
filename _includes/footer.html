@@ -26,25 +26,6 @@
 	      		<span class="username">{{ site.email }}</span>
       		</a>
       	</li>
-
-      	{% for social in site.social %}
-      	{% if social.url != null %}
-      	<li>
-          <a href="{{ social.url }}" title="{{ social.desc }}">
-            <i class="fa fa-{{ social.icon }}"></i>
-            <span class="username">{% if social.username %}{{ social.username }}{% else %}{{ social.name }}{% endif %}</span>
-          </a>
-        </li>
-      	{% endif %}
-      	{% endfor %}
-
-      </ul>
-    </div>
-
-<div class="site-contact">
-
-    	<p><strong>Contact</strong>
-      <ul class="social-media-list">
       	<li>
       		<a href="mailto:{{ site.email2 }}">
 	      		<i class="fa fa-envelope-o"></i>
