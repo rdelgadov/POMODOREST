@@ -7,6 +7,6 @@ Here you should put your weekly kanban photos.
 It's something like this:
 
 ```
-![Begining Week #2](/assets/week-progress/img.png 'Begining Week #2')
+![Begining Week #2]({{site.baseurl}}/assets/week-progress/img.png)
 
 ```
