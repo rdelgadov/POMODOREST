@@ -1,6 +1,6 @@
 #Week Progress
     
-Here you should put your weekly kanban pictures.
+Here you should put your weekly kanban photos.
  
 ## How to place an image in Markdown?
 
