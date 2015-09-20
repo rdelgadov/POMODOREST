@@ -5,7 +5,7 @@
 2. Edit `_config.yml` 
   ```
   url: 'http://sopapiglobo.github.io' # replace 'sopapiglobo' with your github username
-  baseurl: 'baseurlname' # it will look: http://your-gh-username.github.io/baseurlname
+  baseurl: '/baseurlname/' # it will look: http://your-gh-username.github.io/baseurlname
   ```
   We encourage you to modify the values of `title`, `subtitle`, `email`, `email2` and `description` too :-).
 
