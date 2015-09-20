@@ -1,4 +1,18 @@
-# Centrarium
+
+# How to fork and adapt it
+
+1. Fork it.
+2. Edit `_config.yml` 
+  ```
+  url: 'http://sopapiglobo.github.io' # replace 'sopapiglobo' with your github username
+  baseurl: 'baseurlname' # it will look: http://your-gh-username.github.io/baseurlname
+  ```
+  We encourage you to modify the values of `title`, `subtitle`, `email`, `email2` and `description` too :-).
+
+3. Create your new post by clone any markdown archive in `_posts` folder. Here's a [quick Markdown tutorial](https://help.github.com/articles/github-flavored-markdown/). 
+
+
+# Centrarium (THEME INSTRUCTIONS)
 
 A simple yet classy theme for your Jekyll website or blog. Customizable to fit your style or brand.
 
