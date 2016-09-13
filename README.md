@@ -16,7 +16,7 @@
 # Customize it
 You can customize in all the ways you want, [read more here]().
 
-# Blogs from last courses
+# Blogs from the last edition of SE4Robotics
 
 ## 2015
 
