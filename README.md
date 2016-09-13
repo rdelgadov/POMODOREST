@@ -1,5 +1,11 @@
 
-# How to fork and adapt it
+# Welcome everyone to SE4Robotics' course
+During the course you will write blog posts, so let's get one.
+We will use [Github Pages](https://pages.github.com/) for hosting and managing the blog, it basically combines the [Github workflow](https://guides.github.com/introduction/flow/) and [Jekyll ruby's blog engine](https://jekyllrb.com/).
+Before continuing, please watch this video (it's just 4 min): [https://www.youtube.com/watch?v=2MsN8gpT6jY](https://www.youtube.com/watch?v=2MsN8gpT6jY) 
+What you are going to do is to fork this repository (which is a fork of a template) and customize to use it.
+
+## How to fork and adapt it
 
 1. Fork this repository.
 2. Change the name of your repository (the cooler, the better)
@@ -11,14 +17,15 @@
   We encourage you to modify the values of `title`, `subtitle`, `email`, `email2` and `description` too :-).
 
 3. Create your new post by clone any markdown archive in `_posts` folder. Here's a [quick Markdown tutorial](https://help.github.com/articles/github-flavored-markdown/). 
+  Keep in mind that *it may take some minutes* to see the post published.
+4. Read about Github Pages in their official documentation.
 
+## Customize it
+You can customize in all the ways you want, [read more here](https://github.com/bencentra/centrarium) and [here](https://help.github.com/categories/github-pages-basics/).
 
-# Customize it
-You can customize in all the ways you want, [read more here]().
+## Blogs from the last edition of SE4Robotics
 
-# Blogs from the last edition of SE4Robotics
-
-## 2015
+### 2015
 
 1. [http://carolahp.github.io/testpage/](http://carolahp.github.io/testpage/)
 1. [http://hsarmiento.github.io/htrob/](http://hsarmiento.github.io/htrob/)
