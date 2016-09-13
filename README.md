@@ -2,7 +2,7 @@
 # Welcome everyone to SE4Robotics' course
 During the course you will write blog posts, so let's get one.
 We will use [Github Pages](https://pages.github.com/) for hosting and managing the blog, it basically combines the [Github workflow](https://guides.github.com/introduction/flow/) and [Jekyll ruby's blog engine](https://jekyllrb.com/).
-Before continuing, please watch this video (it's just 4 min): [https://www.youtube.com/watch?v=2MsN8gpT6jY](https://www.youtube.com/watch?v=2MsN8gpT6jY) 
+Before continuing, please watch this video (it's just 4 min): [https://www.youtube.com/watch?v=2MsN8gpT6jY](https://www.youtube.com/watch?v=2MsN8gpT6jY).
 What you are going to do is to fork this repository (which is a fork of a template) and customize to use it.
 
 ## How to fork and adapt it
