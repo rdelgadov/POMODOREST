@@ -11,8 +11,9 @@ email2: steffwich@gmail.com
 name: Yo
 description: > 
   Better Sofrware for Better Robots. #SE4Robotics
-baseurl: "/POMODREST/" # the subpath of your site, e.g. /blog/
-url: "http://rdelgadov.github.io/" # the base hostname & protocol for your site
+url: "http://rdelgadov.github.io/" 
+baseurl: "POMODREST/" # the subpath of your site, e.g. /blog/
+# the base hostname & protocol for your site
 #cover: "assets/header_image.jpg"
 cover: "assets/pr2.jpg"
 #logo: "assets/logo.png"
