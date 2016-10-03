@@ -4,7 +4,7 @@ gems:
   - jekyll-sitemap
 
 # Site settings
-title: POMODOREST
+title: pomodorest
 subtitle: "#SE4Robotics"
 email: rodelgad@dcc.uchile.cl
 email2: steffwich@gmail.com
@@ -12,7 +12,7 @@ name: Yo
 description: > 
   Better Sofrware for Better Robots. #SE4Robotics
 url: "http://rdelgadov.github.io/" 
-baseurl: "/POMODREST/" # the subpath of your site, e.g. /blog/
+baseurl: "/pomodorest/" # the subpath of your site, e.g. /blog/
 # the base hostname & protocol for your site
 #cover: "assets/header_image.jpg"
 cover: "assets/pr2.jpg"
