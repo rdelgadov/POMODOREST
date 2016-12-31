@@ -29,6 +29,12 @@ Tele_dir se puede separar en dos herramientas:
 
 * XMLHandler : XMLHandler es la clase que se preocupa de manejar todos los archivos de configuración desde su creación, validación y edición. Siempre que se edita o crea un archivo, este mantiene la consistencia necesaria.
 
-* TeleDir :  TeleDir es el programa en sí. Crea los keybinding señalados en el archivo de configuración, consta de una tecla, un mensaje y un tópico. Luego de esto, comienza a escuchar el input del teclado y a publicar el mensaje correspondiente en el tópico asignado, esto permite que se publique un mensaje por cada evento de tecla presionado, por lo que no bloquea el control del robot en caso de estar activo pero sin uso.
+* TeleDir :  TeleDir es el programa en sí. Pregunta las opciones que se quieren ejecutar y llama a XMLHandler si lo necesita. La opción de controlar al robot crea los keybinding señalados en el archivo de configuración, constan de una tecla, un mensaje y un tópico. Luego de esto, comienza a escuchar el input del teclado y a publicar el mensaje correspondiente en el tópico asignado, esto permite que se publique un mensaje por cada evento de tecla presionado, por lo que no bloquea el control del robot en caso de estar activo pero sin uso.
+
+### Diseño de la solución
+
+El diseño fue pensado para ser extendible y amogable con el usuario, por lo que se utilizaron 
+
+
 
 
