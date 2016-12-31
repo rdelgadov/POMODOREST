@@ -14,4 +14,7 @@ Ya terminado el curso CC5407 del departamento de Ciencias de la Computación de 
 
 ### Problema
 
-Recordando un poco, el problema seleccionado fue la gran cantidad de software de teleoperación disponible para distintos robots ( turtlebot, drone, Pr2, etc ), lo que se consideró como un 
+Recordando un poco, el problema seleccionado fué la gran cantidad de software de teleoperación disponible para distintos robots ( turtlebot, drone, Pr2, etc ), lo que se consideró como un problema debido a la poca extensibilidad que presentan estos softwares.
+Ademas que estos software implementan la publicación continua, por lo que el robot queda "tomado" y no puede ser operado por otra herramienta de teleoperación si existe una corriendo.
+
+### 
