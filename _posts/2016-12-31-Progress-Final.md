@@ -28,6 +28,8 @@ Tele_dir se puede separar en dos herramientas:
 
 * TeleDir :  TeleDir es el programa en sí. Pregunta las opciones que se quieren ejecutar y llama a XMLHandler si lo necesita. La opción de controlar al robot crea los keybinding señalados en el archivo de configuración, constan de una tecla, un mensaje y un tópico. Luego de esto, comienza a escuchar el input del teclado y a publicar el mensaje correspondiente en el tópico asignado, esto permite que se publique un mensaje por cada evento de tecla presionado, por lo que no bloquea el control del robot en caso de estar activo pero sin uso.
 
+El software tambien depende de otro paquete de ROS para operar ya que escapaba de los alcances del proyecto desarrollar esa parte que fue muy importante en el proyecto, este es el [link](https://github.com/baalexander/rospy_message_converter) al proyecto llamado rospy-message-convertor.
+
 ### Diseño de la solución
 
 El diseño fue pensado para ser extendible y amigable con el usuario, por lo que se trato de dejar la mayor parte al usuario sobre la operación, es decir, el usuario crea sus propias configuraciones. Sobre la extensibilidad se puede acotar que el programa cuenta con un menú de opciones donde el usuario escoge que módulo correr, por lo que para añadir nuevas funcionalidades basta con crear una nueva opción con su funcionalidad.
@@ -40,7 +42,11 @@ Se Crearon dos Clases distintas para manejar el programa dado que una parte se p
 
 Al ser tele_dir un paquete nuevo en ROS la integración fue mas sencilla que un cambio al core o a herramientas ya existentes, los pasos a seguir estan detallados en este [link](http://wiki.ros.org/bloom/Tutorials/FirstTimeRelease), se utilizo la herramienta bloom para la integración, la cual consiste en editar un archivo yml en un repositorio en github que contiene la lista de paquetes con sus descripciones y links correspondientes. Si bien se hizo la integración con el archivo yml, tele_dir fue lanzado hace unos dias por la actualización de ROS pero se detectaron errores que no permiten ejecutarlo, aun así se puede descargar el código de este [link](https://github.com/rdelgadov/tele_dir) y ejecutar el archivo teleDir.py para manipular los robots.
 
+Como la integración fué hace unos dias aun no esta disponible la wiki del proyecto en ROS y queda como tarea pendiente.
+
 ### Conclusion
+
+
 
 
 
