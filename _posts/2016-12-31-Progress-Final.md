@@ -38,7 +38,7 @@ Se Crearon dos Clases distintas para manejar el programa dado que una parte se p
 
 ### Integración
 
-Al ser tele_dir un paquete nuevo en ROS la integración fue mas sencilla que un cambio al core o a herramientas ya existentes, los pasos a seguir estan detallados en este [link] (http://wiki.ros.org/bloom/Tutorials/FirstTimeRelease), se utilizo la herramienta bloom para la integración, la cual consiste en editar un archivo yml en un repositorio en github que contiene la lista de paquetes con sus descripciones y links correspondientes. Si bien se hizo la integración con el archivo yml, tele_dir fue lanzado hace unos dias por la actualización de ROS pero se detectaron errores que no permiten ejecutarlo, aun así se puede descargar el código de este [link] (https://github.com/rdelgadov/tele_dir) y ejecutar el archivo teleDir.py para manipular los robots.
+Al ser tele_dir un paquete nuevo en ROS la integración fue mas sencilla que un cambio al core o a herramientas ya existentes, los pasos a seguir estan detallados en este [link](http://wiki.ros.org/bloom/Tutorials/FirstTimeRelease), se utilizo la herramienta bloom para la integración, la cual consiste en editar un archivo yml en un repositorio en github que contiene la lista de paquetes con sus descripciones y links correspondientes. Si bien se hizo la integración con el archivo yml, tele_dir fue lanzado hace unos dias por la actualización de ROS pero se detectaron errores que no permiten ejecutarlo, aun así se puede descargar el código de este [link](https://github.com/rdelgadov/tele_dir) y ejecutar el archivo teleDir.py para manipular los robots.
 
 ### Conclusion
 
