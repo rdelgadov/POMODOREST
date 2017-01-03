@@ -44,7 +44,17 @@ Al ser tele_dir un paquete nuevo en ROS la integración fue mas sencilla que un 
 
 Como la integración fué hace unos dias aun no esta disponible la wiki del proyecto en ROS y queda como tarea pendiente.
 
-### Conclusion
+### Conclusiones
+
+Es importante considerar la integración desde un principio en el desarrollo ya que es un paso importante para contribuir con ROS y que demanda mucho mas tiempo del esperado. 
+
+Existen muchos paquetes en ROS, lo que genera que hayan muchas herramientas que permitan mejorar alguna ya existente, asi como también existen muchas que son similares en funcionalidad pero que difieren en el uso que se les da.
+
+El hecho de ser un S.O que acepta varios lenguajes (C++ y python en particular) genera que muchas ventajas de python no puedan ser usadas por tener tipos estáticos heredados de C++.
+
+La mayor parte del core de ROS posee funciones muy interesantes para el desarrollo de software pero son funciones privadas por lo que la unica forma de accederlas es buscar como funciona cada herramineta de ROS y luego mirar el código funete y copiar las funciones (
+
+
 
 
 
